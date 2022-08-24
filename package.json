@@ -1,0 +1,23 @@
+{
+  "name": "pack_and_unpack_png_bitmap_glyphs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hsjoihs / jekto.vatimeliju",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pngjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/pngjs": "^6.0.1"
+  }
+}
